@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Biodata diri</title>
+	
+</head>
+<body>
+	<fieldset>
+		<h3><u> MASUKKAN BIODATA DIRI ANDA</u></h3>
+		<form method="POST">
+			<div>
+				<label for="nama">Nama  :</label>
+				<input type="text" id="nama" name="nama" placeholder="Nama lengkap anda">
+			</div>
+			<br>
+			<div>
+				<label for="alamat">Alamat :</label>
+				<textarea id="alamat" placeholder="Alamat lengkap anda"></textarea>
+				
+			</div>
+			<br>
+			<div>
+				<label for="jenis_kelamin">Jenis Kelamin :</label>
+				<label for="laki-laki">
+					<input type="radio" value="l" id="laki-laki" name="jenis_kelamin"> Laki-laki
+				</label>
+				<label for="perempuan">
+					<input type="radio" value="p" id="perempuan" name="jenis_kelamin">Perempuan 
+				</label>
+			</div>
+			<br>
+			<div>
+				<label>Tanggal Lahir :</label>
+				<input type="date">
+			</div>
+			<br>
+			<div>
+				<label for="prodi">Program studi : </label>
+				<input type="text" name="prodi" id="prodi">
+			</div>
+			<br>
+			<div>
+				<label for="agama">Agama:</label>
+				<select>
+					<option value="islam">Islam</option>
+					<option value="kristen">Kristen</option>
+					<option value="Hindu">Hindu</option>
+					<option value="Katholik">Khatolik</option>
+					<option value="budha">Budha</option>
+				</select>
+			</div>
+			<br>
+			<div>
+				<input type="checkbox" name="cek">centang jika data sudah sesuai
+			</div>
+			<br>
+			<div>
+				<input type="submit" name="submit">
+				<input type="reset" name="reset">
+			</div>
+		</form>
+	</fieldset>	
+</body>
+</html>
