@@ -1,0 +1,27 @@
+body{
+	background-color: #A0A1BA;
+	background-size: cover;
+}
+.navigasi{
+	background-color: #02438F; 
+	text-align: right;
+	background-size: cover;
+}
+.kontak{
+	text-align: center;
+	font-family: serif;
+	font-size: 20px;
+    padding: 50px;
+}
+a{
+	color: white;
+}
+.rapi{
+	background-color: #02438F; 
+	width: 300px; 
+	margin: 0 auto; 
+	color: white;
+}
+footer{
+	text-align: center;
+}
