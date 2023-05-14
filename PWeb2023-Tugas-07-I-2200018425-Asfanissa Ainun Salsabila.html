@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal Website Asfanissa</title>
+	<link rel="stylesheet" type="text/css" href="SKRIP.css">
+</head>
+<body>
+	<div class="navigasi">
+		<table cellspacing="10">
+			<tr>
+				<td>
+					<a href="home.html">Home </a>
+				</td>
+				<td>
+					<a href="myProfile.html">My Profile</a>
+				</td>
+				<td>
+					<a href="contact.html">Contact</a>
+				</td>			
+			</tr>
+		</table>
+	</div>
+	<br>
+		<header>
+			<img src="foto.jpeg" width="175" height="200" style="border-radius: 50%;">
+			<h1 id="nama"></h1>
+		</header>
+		<div class="about">
+			<article>
+					<h3 id="tentang"></h3>
+					<p id="deskripsi"> </p> <br>
+			</article>
+		</div>
+		<br>
+	<hr>
+    <footer>
+        <p>Copyright &copy; 2023 Asfanissa Ainun Salsabila.</p>
+    </footer>
+    <script>
+        var nama = "Asfanissa Ainun Salsabila";
+        var tentang = "Sedikit tentang saya:";
+		var deskripsi = "Hai selamat datang di Web Profile pertama saya. Saya merupakan mahasiswa Universitas Ahmad Dahlan jurusan Informatika semester 2.<br> "
+		// Menambahkan nama, tentang, dan deskripsi ke elemen h1, h3, dan p pada halaman web
+		document.getElementById("nama").innerHTML = nama;
+		document.getElementById("tentang").innerHTML = tentang;
+		document.getElementById("deskripsi").innerHTML = deskripsi;
+    </script>
+</body>
+</html>
