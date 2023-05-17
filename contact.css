@@ -1,27 +1,55 @@
 body{
 	background-color: #A0A1BA;
 	background-size: cover;
-}
-.navigasi{
-	background-color: #02438F; 
-	text-align: right;
-	background-size: cover;
-}
-.kontak{
-	text-align: center;
-	font-family: serif;
-	font-size: 20px;
-    padding: 50px;
+	
+ 	font-family: sans-serif;
 }
 a{
 	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: sans-serif;
+	padding: 14px 10px;
 }
-.rapi{
-	background-color: #02438F; 
-	width: 300px; 
-	margin: 0 auto; 
+ul{
+	padding: 14px;
+}
+li{
+	list-style: none;
+	display: inline;
+}
+li a{
+	background: #02438F;
 	color: white;
 }
-footer{
+li a:hover{
+	background: #3169AA ; 
+	height: 50px;
+}
+h1, article, footer{
 	text-align: center;
 }
+.navi{
+	background-color:#02438F;
+	height: 50px;
+}
+.kontak{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	flex: 1 0 100%;
+}	
+.rapi{
+	font-size: 25px;
+	background-color: #02438F; 
+	margin: 0 auto; 
+	color: white;
+	width: 500px;
+}
+.input{
+  resize:none;
+  width:300px;
+  height:100px;
+}
+
