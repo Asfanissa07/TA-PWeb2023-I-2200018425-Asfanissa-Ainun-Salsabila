@@ -1,20 +1,44 @@
 body{
 	background-color: #A0A1BA;
 	background-size: cover;
+	font-family: sans-serif;
+	font-size: 16px;
 }
-.navigasi{
-	background-color: #02438F; 
-	text-align: right;
-	background-size: cover;
-}
-.tabel{
-  	height: 100%;
-  	font-family: sans-serif;
-  	font-size: 12;
- }
 a{
 	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: sans-serif;
+	padding: 14px 10px;
 }
+ul{
+	padding: 14px;
+}
+li{
+	list-style: none;
+	display: inline;
+}
+li a{
+	background: #02438F;
+	color: white;
+}
+li a:hover{
+	background: #3169AA ; 
+	height: 50px;
+}
+header, article, footer, h1{
+	text-align: center;
+}
+.navi{
+	background-color:#02438F;
+	height: 50px;
+}
+.tabel{
+	float: center;
+  	width: 600px;
+  	align-content: center;
+  	
+ }
 footer{
 	text-align: center;
 }
