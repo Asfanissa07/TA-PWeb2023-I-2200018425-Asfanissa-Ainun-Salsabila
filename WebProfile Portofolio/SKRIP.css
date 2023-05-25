@@ -1,0 +1,50 @@
+body{
+	background-color: #A0A1BA;
+	background-size: cover;
+}
+.about{
+	background-color: white; 
+	align-items: center;
+	width: 45%;
+    margin:auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: sans-serif;
+	padding: 15px 10px;
+}
+ul{
+	padding: 15px;
+}
+li{
+	list-style: none;
+	display: inline;
+}
+li a{
+	background: #02438F;
+	color: white;
+}
+li a:hover{
+	background: #3169AA ; 
+	height: 50px;
+}
+header, article, footer{
+	text-align: center;
+}
+footer{
+	color: #02438F;
+}
+.navi{
+	background-color:#02438F;
+	height: 50px;
+	text-align: left;
+}
+h1,h2{
+	font-family: cursive;
+}
+	
