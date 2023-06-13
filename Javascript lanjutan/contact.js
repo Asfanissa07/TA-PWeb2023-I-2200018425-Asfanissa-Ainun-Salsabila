@@ -6,7 +6,7 @@
     			alert("Mohon isikan semua isian form sebelum klik tombol kirim!");
     		}else{
     			var hariIni = new Date();
-    			var date = hariIni.toLocalDateString();
+    			var date = hariIni.toLocaleDateString();
     			alert("Terima kasih! Pesan Anda telah terkirim pada tanggal " + date + ".");
     		}
 
