@@ -1,0 +1,229 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	text-decoration: none;
+	list-style: none;
+	scroll-behavior: smooth;
+	scroll-padding-top: 2rem;
+}
+:root{
+	--bg-color: #2f4454;
+	--nav-color: #1C3334;
+	--nav-hover:  #376E6F;
+	--text-color: #fff;
+	--text-color2: #DA7B93;
+	--text-color3: #2E151B;
+	--p-font: 1rem;
+	--2nd-main-color: #ffffffcc;
+}
+body{
+	background: var(--bg-color);
+
+}
+header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	right: 0;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: var(--nav-color);
+	padding: 10px 14%;
+	transition: 0.3s;
+}
+.logo{
+	color: var(--text-color);
+	font-size: 2rem;
+	font-weight: 600;
+}
+.navbar{
+	display: flex;
+}
+.navbar a{
+	color: var(--text-color);
+	padding: 10px 20px;
+	font-weight: 500;
+}
+.navbar a:hover{
+	background: var(--nav-hover);
+	transition: 0.3s;
+}
+section{
+	padding: 120px 14%;
+}
+span{
+	color: var(--text-color2);
+}
+.home{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 6rem;
+	align-items: center;
+}
+.home-img img{
+	border-radius: 50%;
+	max-width: 100%;
+	width: 600px;
+	height: auto;
+}
+.home-text h5{
+	color: var(--text-color);
+	font-size: 25px;
+	font-weight: 500;
+	margin-top: 0 0 20px;
+}
+.home-text h1{
+	font-size: 4rem;
+	color: var(--text-color);
+	font-weight: 700;
+	line-height: 1;
+	margin: 0 0 20px;
+}
+.home-text h6{
+	color: var(--text-color);
+	font-weight: 500;
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+.btn{
+	background: var(--text-color2);
+	color: var(--text-color);
+	box-shadow: 4px 4px var(--text-color);
+	padding: 0.25px;
+	line-height: 42px;
+	display: inline-block;
+	border: 1px solid transparent;
+	font-size: 14px;
+	font-weight: 400;
+}
+.btn:hover{
+	background: var(--text-color3);
+	box-shadow: 4px 4px var(--text-color2);
+}
+
+.about{
+	display: grid;
+	align-items: center;
+}
+.about-text h3{
+	color: var(--text-color);
+	font-size: 30px;
+	font-weight: 300;
+	letter-spacing: 6px;
+	margin: 0 0 30px;
+}
+.about-text h2{
+	margin-bottom: 0.5rem;
+	font-weight: 500;
+	font-size: 2rem;
+	line-height: 1.2;
+	max-width: 470px;
+	margin-bottom: 2rem;
+	color: var(--2nd-main-color);
+}
+.about-text p{
+	max-width: 570px;
+	font-size: var(--p-font);
+	font-weight: 300;
+	margin-bottom: 1.5rem;
+	line-height: 1.8rem;
+	color: var(--2nd-main-color);
+}
+
+.my-profile h1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--text-color);
+	font-size: 30px;
+	font-weight: 300;
+	letter-spacing: 6px;
+	margin: 0 0 30px;
+}
+.tabel{
+	width: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.tabel p{
+	color: var(--2nd-main-color);
+	font-size: var(--p-font);
+	margin-bottom: 1.5rem;
+	line-height: 1.8rem;
+}
+ul{
+	color: var(--2nd-main-color);
+	font-size: var(--p-font);
+	margin-bottom: 1.5rem;
+	line-height: 1.8rem;
+}
+
+.center h3{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--text-color);
+	font-size: 30px;
+	font-weight: 300;
+	letter-spacing: 6px;
+	margin: 0 0 30px;
+
+}
+.contact-form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 4.2rem;
+}
+.contact-form form{
+	position: relative;
+	width: 550px;
+}
+form input, form textarea{
+	width: 100%;
+	padding: 20px;
+	border: none;
+	outline: none;
+	background: #0b0b13;
+	color: var(--text-color);
+	margin-bottom: 0.5rem;
+	border-radius: 5px;
+}
+form input::placeholder, form textarea::placeholder{
+	color: var(--2nd-main-color);
+}
+textarea{
+	resize: none;
+	height: 200px;
+}
+form .send-btn{
+	background: var(--text-color2);
+	color: var(--text-color);
+	box-shadow: 4px 4px var(--text-color);
+	padding: 0.25px;
+	line-height: 42px;
+	display: inline-block;
+	border: 1px solid transparent;
+	font-size: 14px;
+	font-weight: 400;
+}
+form .send-btn:hover{
+	background: var(--2nd-main-color);
+	box-shadow: 4px 4px var(--text-color2);
+}
+footer{
+	text-align: center;
+	padding: 30px;
+	color: var(--2nd-main-color);
+	background: var(--nav-color);
+	margin-top: 3rem;
+	line-height: 1.8rem;
+}

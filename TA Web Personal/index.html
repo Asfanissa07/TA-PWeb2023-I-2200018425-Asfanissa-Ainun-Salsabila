@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal Website Asfanissa</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+	<!-- header -->
+	<header>
+		<a href="#" class="logo">My Web Personal</a>
+
+	<nav>
+			<ul class="navbar">
+				<li><a href="#home">HOME</a></li>
+				<li><a href="#myprofile">MY PROFILE</a></li>
+				<li><a href="#contact">CONTACT</a></li>
+			</ul>
+	</nav>
+	<br>
+	</header>
+	<!-- Home -->
+	<section class="home" id="home">
+		<div class="home-text">
+			<h5>Hello, I am...</h5>
+			<h1>Asfanissa Ainun Salsabila</h1>
+			<h6>Saya merupakan mahasiswa <span>Informatika</span> semester 2</h6>
+			<a href="#about" class="btn">Learn About Me</a>
+		</div>
+		<div class="home-img">
+			<img src="image.JPEG">
+		</div>
+	</section>
+	<!-- About -->
+	<section class="about" id="about">
+		<div class="about-text">
+			<h3>ABOUT ME</h3>
+			<h2>Saya adalah seorang mahasiswa jurusan Informatika yang sedang menempuh pendidikan semester 2</h2>
+			<p>Saya bersekolah di Universitas Ahmad Dahlan dan sekarang merupakan tahun pertama saya bersekolah di Universitas Ahmad Dahlan ini. Selain HTML, saya juga telah mempelajari bahasa pemograman C++.</p>
+		</div>
+	<!-- My Profile -->
+	<section class="my-profile" id="myprofile">
+		<h1>Biodata diri</h1>
+	<hr width="600px">
+		<table class="tabel">
+			<tr>
+				<td>
+					<p>Nama Lengkap :</p>
+				</td>
+				<td><p>Asfanissa Ainun Salsabila</p></td>
+			</tr>
+			<tr>
+				<td><p>Tanggal Lahir :</p></td>
+				<td><p>Bantul, 1 Juli 2004</p></td>
+			</tr>
+			<tr>
+				<td><p>Warga Negara :</p></td>
+				<td><p>Indonesia</p></td>
+			</tr>
+			<tr>
+				<td><p>Pendidikan :</p></t>
+				<td><p>Universitas Ahmad Dahlan</p></td>
+			</tr>
+			<tr>
+				<td><p>Program Studi :</p></td>
+				<td><p>Informatika</p></td>
+			</tr>
+			<tr>
+				<td><p>Skill :</p></td>
+				<td>
+					<ul class="skill-list" id="skillList">
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td><p>Email</p></td>
+				<td><p>: asfsalbila@gmail.com</p></td>
+			</tr>
+		</table>
+	</div>
+	</section>
+	</section>
+	<!-- Contact -->
+	<section class="contact" id="contact">
+		<div class="center">
+			<h3>Contact Me</h3>
+		</div>
+		<div class="contact-form">
+			<form id="contactForm" action="proses.php" method="post">
+				<input type="text" id="nama" name="nama" placeholder="Nama Anda" required><br><br>
+				<input type="email" id="email" name="email" placeholder="Email Anda" required><br><br>
+				<textarea  id="pesan" name="pesan" cols="30" rows="10" placeholder="Pesan Anda" required></textarea><br><br>
+				<input type="submit" name="" value="Send" class="send-btn">
+			</form>
+		</div>
+	</section>
+	<hr>
+    <footer class="copyrigth">
+        <p>Copyright &copy; 2023 Web Personal <br> Created by Asfanissa Ainun Salsabila.</p>
+    </footer>
+    <script type="text/javascript" src="skrip.js"></script>
+</body>
+</html>
